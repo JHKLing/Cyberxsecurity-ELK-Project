@@ -2,7 +2,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-![RTN & ELK Network Diagram.png](./Images/RTN & ELK Network Diagram.png)
+![RTN-&-ELK-Network-Diagram.png](./Images/RTN-&-ELK-Network-Diagram.png)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the playbook file may be used to install only certain pieces of it, such as Filebeat.
 
@@ -80,7 +80,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![Docker PS Output.png](./Images/Docker PS Output.png)
+![Docker-PS-Output.png](./Images/Docker-PS-Output.png)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
@@ -107,7 +107,7 @@ SSH into the control node and follow the steps below:
 - Run the command ansible-playbok metricbeat-playbook.yml to run the metricbeat-playbook.yml that we have created and monitor the nodes from webserver.
 - Navigate to http://ELK-VM-PUBLIC-IP:5601/app/kibana and check yo see filebeat and metricbeat entries.
 
-![ELK Playbook.png](./Images/ELK Playbook.png)
-![Filebeat Playbook.png](./Images/Filebeat Playbook.png)
-![Metricbeat Playbook.png](./Images/Metricbeat Playbook.png)
+![ELK-Playbook.png](./Images/ELK-Playbook.png)
+![Filebeat-Playbook.png](./Images/Filebeat-Playbook.png)
+![Metricbeat-Playbook.png](./Images/Metricbeat-Playbook.png)
 ![Kibana.png](./Images/Kibana.png)
