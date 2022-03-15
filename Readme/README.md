@@ -6,9 +6,9 @@ The files in this repository were used to configure the network depicted below.
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the playbook file may be used to install only certain pieces of it, such as Filebeat.
 
-  - ELK.yaml
-  - Filebeat.yaml
-  - Metricbeat.yaml
+  - ELK.yml
+  - Filebeat.yml
+  - Metricbeat.yml
 
 This document contains the following details:
 - Description of the Topologu
@@ -66,9 +66,7 @@ A summary of the access policies in place can be found in the table below.
 | ELK      | Yes                 |Public IP/10.0.0.0/16/ 10.1.0.0/16|
 ### Elk Configuration
 
-Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
-- What is the main advantage of automating configuration with Ansible?
-Ansible can automate IT environments whether they are hosted on traditional bare metal servers, virtualization platforms, or in the cloud. It can also automate the configuration of a wide range of systems and devices such as databases, storage devices, networks, firewalls, and many others. It also allows us to write the steps into the playbook to ensure every servers receive the same configuration.
+Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because Ansible can automate IT environments whether they are hosted on traditional bare metal servers, virtualization platforms, or in the cloud. It can also automate the configuration of a wide range of systems and devices such as databases, storage devices, networks, firewalls, and many others. It also allows us to write the steps into the playbook to ensure every servers receive the same configuration.
 
 The playbook implements the following tasks:
 - Update apt cache
